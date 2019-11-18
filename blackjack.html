@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Blackjack Game</title>
+
+    <meta name="description" content="Portfolio Page for CS 2350">
+    <meta name="keywords" content="cs, computer science, portfolio, web">
+    <meta name="author" content="Justin Edwards">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="resources/style.css"> -->
+    <link rel="stylesheet" href="assets/css//blackjack.css" />
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+
+      <!-- <header class="row">
+          
+      </header> -->
+      <div class="container">
+          
+      <!-- <nav>
+        <ul>
+            <li>
+                <a href="index.html"
+                title="Go To Home Page">Home
+                </a>
+            </li>
+            <li>
+                <a href="destiny.html"
+                    title="Go To Page About Destiny">
+                    Homework 1
+                    <p>
+                            - Destiny
+                    </p>
+                </a>
+            </li>
+            <li>
+                <div class="flyout">
+                    <button>See More</button>
+                    <div class="flyout-content">
+                        <a href="publishing.html"
+                            title="Go To Page About Publishing">
+                            Homework 2
+                            <p>
+                                    - How to Publish
+                            </p>
+                        </a>
+                        <a href="box_model.html" 
+                        title="Go To Page About the CSS Box Model">
+                            Homework 3
+                            <p>
+                                - CSS Box Model
+                            </p>
+                        </a>  
+                        <a href="madlib.html"
+                            title="Mad Lib Page">
+                            Homework 8
+                            <p>
+                                - Mad Lib
+                            </p>
+                        </a>
+                        <a href="albums.html"
+                            title="Albums Page">
+                            Homework 9
+                            <p>
+                                - Albums Page
+                            </p>
+                        </a>
+                        <a href="form.html"
+                        title="Survey Page">
+                            Homework 10
+                            <p>
+                                    - Unit Converter
+                            </p>
+                        </a>
+                        <a href="blackjack.html"
+                            title="Blackjack Page">
+                            Homework 12
+                            <p>
+                                - Blackjack Page
+                            </p>
+                        </a>
+                    </div>
+                </div> 
+            </li>
+        </ul>
+    </nav> -->
+
+        <h1 id="title">Blackjack</h1>
+        <div id="image">
+        <p id="text-area">Welcome to Blackjack!</p>
+        <button id="new-game-button">New Game</button>
+        </div>
+        <div id="playing-buttons">
+        <button id="hit-button">Hit</button>
+        <button id="stay-button">Stand</button>
+        </div>
+
+        <div id="playing-page">
+        <p class="card-header">Dealer Cards:</p>
+        <div id="dealer-playing-cards">
+            <div class="playing-card">
+            <p class="top-left suit">&#x2660;</p>
+            <p class="top-right suit">&#x2660;</p>
+            <p class="bottom-left suit">&#x2660;</p>
+            <p class="bottom-right suit">&#x2660;</p>
+            <p class="card-val">A</p>
+            </div>
+        </div>
+
+        <p id="dealer-score" class="score-tags">Dealer Score: </p>
+
+        <p class="card-header">Player Cards:</p>
+        <div id="player-playing-cards">
+            <div class="playing-card">
+            <p class="top-left suit">&#x2660;</p>
+            <p class="top-right suit">&#x2660;</p>
+            <p class="bottom-left suit">&#x2660;</p>
+            <p class="bottom-right suit">&#x2660;</p>
+            <p class="card-val">A</p>
+            </div>
+        </div>
+
+        <p id="player-score" class="score-tags">Player Score: </p>
+
+        </div>
+
+        <div id="betting-page">
+        <div id="coins">
+            <div class="coin" id="one"><p>1</p></div>
+            <div class="coin" id="five"><p>5</p></div>
+            <div class="coin" id="ten"><p>10</p></div>
+            <div class="coin" id="twenty-five"><p>25</p></div>
+            <div class="coin" id="fifty"><p>50</p></div>
+            <div class="coin" id="one-hundred"><p>100</p></div>
+            <div class="coin" id="five-hundred"><p>500</p></div>
+            <div class="coin" id="one-thousand"><p>1k</p></div>
+        </div>
+
+        <div id="display-info">
+
+            <p id="available">Available: $1000</p>
+            <p id="bet">Bet: $0</p>
+
+            <button class="betting-button" id="all-in">All In</button>
+            <button class="betting-button" id="reset-button">Reset Bet</button>
+            <button class="betting-button" id="deal-button">Deal</button>
+
+        </div>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/blackjack.js"></script>
+  </body>
+</html>

@@ -1,0 +1,277 @@
+@font-face {
+    font-family: merriweather;
+    src: url("../../webfonts/Merriweather-Regular.ttf");
+  }
+
+  /* header {
+      height: 150px;
+      width: 95%;
+      border: 2px solid;
+      margin: auto;
+      
+  }
+
+  header h1 {
+      color: white;
+      padding-top: 50px;
+      font-size: 70px;
+    
+  } */
+  
+  body {
+    font-family: "merriweather";
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .container {
+    padding-top: 20px;
+    height: 500px;
+    background-color: rgb(241, 220, 210);
+    border: 2px solid black;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .container h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+  }
+
+  
+  #image {
+    padding-top: 100px;
+    color: white;
+    height: 462px;
+    width: 600px;
+    margin: auto;
+    /* background-image: url(blackjack_img_opt.png);  */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    padding: 40px;
+  }
+  
+  #image p {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+  
+  }
+  
+  button {
+    border: 4px solid rgb(131, 39, 39);
+    background-color: rgb(236, 134, 134);
+    font-family: "Black han sans";
+  }
+  
+  button:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+  }
+  
+  /* body {
+    width: 100%;
+    height: 100%;
+  } */
+  
+  .playing-card {
+    position: relative;
+    border: 2px solid black;
+    height: 160px;
+    width: 100px;
+    font-size: 40px;
+    display: inline-block;
+    margin: auto;
+    margin-right: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  #text-area {
+    font-weight: bold;
+    background-color: rgba(1, 1, 1, .5);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  #new-game-button {
+    top: 20px;
+    position: relative;
+  }
+  
+  #playing-buttons button {
+    width: 100px;
+  }
+  
+  .score-tags {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-header {
+    font-size: 25px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: -42px;
+    left: 2px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: -42px;
+    right: 2px;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: -42px;
+    left: 2px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: -42px;
+    right: 2px;
+  }
+  
+  .card-val {
+    font-size: 50px;
+    position: relative;
+    margin: auto;
+    top: 47px;
+    text-align: center;
+  }
+  
+  #text-area {
+    font-size: 20px;
+  }
+  
+  button {
+    font-size: 20px;
+  
+  }
+  
+  #display-info {
+    width: 300px;
+    margin: auto;
+    position: relative;
+    /*
+    padding-top: 100px;
+    position: absolute;
+    left: 150px;
+    line-height: 5px;
+    font-size: 30px;
+    text-align: center;
+    */
+  }
+  
+  
+  #display-info button {
+    width: 300px;
+  }
+  
+  .testing div {
+    display: inline-block;
+  }
+  
+  #coins {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    /*
+    width: 100px;
+    vertical-align: middle;
+    max-height: 40px;
+    */
+  }
+  
+  .coin {
+    float: left;
+    border: solid black 2px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .coin p {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+  }
+  
+  #display-info p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  
+  #one {
+    background-color: rgb(226, 226, 226);
+  }
+  
+  #five {
+    background-color: rgb(209, 57, 54);
+  }
+  
+  #ten {
+    background-color: rgb(61, 164, 233);
+  }
+  
+  #twenty-five {
+    background-color: rgb(70, 190, 86);
+  }
+  
+  #fifty {
+    background-color: rgb(211, 149, 68);
+  }
+  
+  #one-hundred {
+    background-color: rgb(8, 7, 6);
+    color: white;
+  }
+  
+  #five-hundred {
+    background-color: rgb(151, 60, 179);
+  }
+  
+  #one-thousand {
+    background-color: rgb(219, 210, 82);
+  }
+
+  .coin p {
+      background-color: white;
+      position: relative;
+      top: -10px;
+      left: 18px;
+      line-height: 60px;
+      height: 60px;
+      width: 60px;
+      border-radius: 60px;
+      border: 2px solid black;
+  }
+  
+  .coin:hover {
+    -webkit-filter: brightness(70%);
+    cursor: pointer;
+  }
+  
+  .betting-button {
+    text-align: center;
+    margin-top: 10px;
+    width: 80px;
+    display: block;
+  }
+  

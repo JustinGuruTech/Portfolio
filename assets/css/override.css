@@ -1,0 +1,52 @@
+#text {
+    color: #79b1f1;
+}
+
+#blinker {
+    color: white;
+    display: inline-block;
+}
+
+.ityped-cursor {
+    /* font-size: 4em; */
+    color: white;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+.image-header {
+    background-color: rgb(32, 32, 32);
+}
+
+.image:before {
+    background: none;
+}
+
+/* .image img {
+    height: 100%;
+} */
+
+/* .image {
+    background-image: cover;
+} */
