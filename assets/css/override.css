@@ -43,9 +43,9 @@
     background: none;
 }
 
-/* .image img {
-    height: 100%;
-} */
+.image img {
+    border: 4px solid rgb(32, 32, 32);
+}
 
 /* .image {
     background-image: cover;
