@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+    <header>
+        <title>Selection Sort</title>
+        <link rel="stylesheet" href="assets/css/selection_style.css" />
+    </header>
+
+    <body>
+
+        <h1>
+            Selection Sort
+        </h1>
+        <p>
+        This is a visualization of a selection sort.
+        </p>
+        <div class="slideContainer">
+            <p>Speed: </p>
+            <input type="range" min="1" max="200" value="100" class="slider" id="myRange">
+            <p id="sliderValue">100</p>
+        </div>
+        <div id="elements">
+            <div class="element" id="placeholder">
+                <p></p>
+            </div>
+        </div>
+
+        <button id="startButton">
+        Start Sort
+        </button>
+
+        <button id='stepButton'>
+        Next Step
+        </button>
+
+        <input id="searchNum" type="number">
+        <p id="result"></p>
+    </body>
+
+    <script type="text/javascript" src="assets/js/selection_script.js"></script>
+</html>

@@ -1,0 +1,71 @@
+body {
+    font-family: "Courier New";
+}
+
+.slideContainer {
+  height: 70px;
+}
+
+.slideContainer p {
+  display: inline;
+
+  font-size: 30px;
+}
+
+#elements {
+  height: auto;
+}
+
+#placeholder {
+  display: none;
+}
+
+#startButton {
+  height: 40px;
+  width: 120px;
+  margin-top: 10px;
+}
+
+#searchNum {
+  height: 30px;
+  width: 60px;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+  display: none;
+}
+
+.element {
+  border: 2px black solid;
+  position: relative;
+  bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 36px;
+  margin-right: 5px;
+  margin-left: 0;
+  padding-top: 0;
+  display: inline-block;
+}
+
+.element p {
+  position: relative;
+  bottom: 5px;
+}
+
+
+.compareToElement, .leftElement, .rightElement {
+  background-color: #696FFF;
+}
+
+.comparingElement, .wrongElement {
+  background-color: #FF4E50;
+}
+
+.minimumElement, .midElement {
+  background-color: #49FF70;
+}
+
+#stepButton {
+  display: none;
+}
