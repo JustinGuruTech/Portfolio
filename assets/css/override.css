@@ -59,7 +59,7 @@ h2 {
 p {
     letter-spacing: -1.2px;
     line-height: 1.5;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -125,7 +125,7 @@ hr {
     gap:  00px;
     letter-spacing: -1.4px;
     line-height: 1.5;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     font-weight: 500;
     max-width: 600px;
     list-style-position: inside;
@@ -134,9 +134,8 @@ hr {
     margin-top: 15px;
 }
 
-#intro-list li {
-    list-style-type: none;
-    margin: 10px
+#intro-list p {
+    margin: 10px;
 }
 
 #intro-list a {
@@ -273,12 +272,17 @@ hr {
     margin-bottom: 100px;
 }
 
+#music p {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
 #music .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
 
 #music .playlist {
@@ -298,20 +302,34 @@ hr {
 
     #projects .side-by-side {
         width: 100%;
+        display: inline;
     }
 
     .side-by-side p {
+        width: 100%;
         text-align: center;
     }
 
     .side-by-side ul {
-        width: 100%;
+        margin-top: 20px;
         text-align: center;
+    }
+
+    #intro-list {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    #project-desc-list {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
 
     .project-info {
         width: 100%;
-        padding: 20px;
+        padding: 0px;
         text-align: center;
     }
 
